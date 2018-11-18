@@ -1,0 +1,19 @@
+[cd]
+name=cd-rom
+baseurl=file:///misc/cd/
+gpgcheck=1 
+gpgkey=file:///misc/cd/RPM-GPG-KEY-CentOS-7
+
+[base]
+name=CentOS
+baseurl=file:///misc/cd
+	https://mirrors.aliyun.com/centos/$releasever/$basearch
+gpgcheck=0
+enabled=0
+
+[epel]
+name=EPEL
+baseurl=http://mirrors.aliyun.com/epel/$releasever/$basearch
+	https://mirrors.tuna.tsinghua.edu.cn/epel/$releasever/$basearch
+gpgcheck=0
+enabled=0

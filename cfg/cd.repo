@@ -1,0 +1,5 @@
+[cd]
+name=cd
+baseurl=file:///mnt/cd/
+gpgcheck=1 
+gpgkey=file:///mnt/cd/RPM-GPG-KEY-CentOS-7

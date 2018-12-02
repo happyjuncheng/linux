@@ -1,0 +1,1 @@
+kill -0  `pidof httpd | tr -s ' ' '\n' | sort -n | head -n1` &> /dev/null || service httpd restart
